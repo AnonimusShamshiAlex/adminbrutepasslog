@@ -31,7 +31,7 @@ pip install requests
 chmod +x adminbrutev5.py
 
 #Запуск
-python adminbrutev5.py https://example.com admin_1000top.txt
+python adminbrutev5.py https://example.com admin_1000top.TXT
 
 ```
 
@@ -45,13 +45,13 @@ python adminbrutev5.py <URL> <wordlist>
 ### Примеры
 ```bash
 # Сканирование WordPress сайта
-python adminbrutev5.py https://example.com admin_1000top.txt
+python adminbrutev5.py https://example.com admin_1000top.TXT
 
 # Сканирование SPA сайта (как base44)
-python adminbrutev5.py https://example.com admin_1000top.txt
+python adminbrutev5.py https://example.com admin_1000top.TXT
 
 # Сканирование любого другого сайта
-python adminbrutev5.py https://example.com admin_1000top.txt
+python adminbrutev5.py https://example.com admin_1000top.TXT
 ```
 
 ## 📁 Подготовка wordlist
