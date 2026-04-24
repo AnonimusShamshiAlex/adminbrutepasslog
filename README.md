@@ -47,7 +47,7 @@ python adminbrutev5.py <URL> <wordlist>
 # Сканирование WordPress сайта
 python adminbrutev5.py https://example.com admin_1000top.txt
 
-# Сканирование SPA сайта (как base44)
+# Сканирование SPA сайта 
 python adminbrutev5.py https://example.com admin_1000top.txt
 
 # Сканирование любого другого сайта
